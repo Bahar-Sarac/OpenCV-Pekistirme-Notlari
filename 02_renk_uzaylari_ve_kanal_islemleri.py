@@ -96,7 +96,7 @@ doygunluk (S) ve parlaklık (V) bileşenlerine ayırır.
 # Görüntüyü HSV renk uzayına çeviriyoruz
 ### I_hsv = cv2.cvtColor(I, cv2.COLOR_BGR2HSV)
 ###
-# Dönüştürülen gri görüntüyü diske kaydetme testi (.gitignore bu dosyayı engeller)
+# Dönüştürülen gri görüntüyü diske kaydetme testi
 ### cv2.imwrite('peppers_gray.tif', I_gray)
 ###
 ### cv2.imshow('Gri Tonlamali Goruntu', I_gray)
